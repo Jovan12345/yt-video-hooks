@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import youtube from '../apis/youtube';
 
 
-const KEY = 'AIzaSyCN6e98GjAfa_d4E4mISSn8uCP6g5b1DvE';
+const KEY = 'AIzaSyCbsGGGdH3pXi1InWu1rMMZVlDDmJJEt14';
 
 const useVideos = (defaultSearchTerm) => {
     const [videos, setVideos] = useState([]);
